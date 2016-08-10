@@ -90,7 +90,7 @@ border-radius: 0px;
 -o-transition: all 0.5s ease-in-out;
 transition: all 0.5s ease-in-out;
 margin: 25px 5px 5px 0px;
-margin: 5px;
+margin: 5px
 }
 
 .btn-custom-one {
@@ -223,7 +223,36 @@ margin: 5px;
 color: rgb(57, 171, 111);
 font-size: 60px;
 }
+#boxess {
+	font-family: Times New Roman;
+    background-color: #fff0f5;
+    width: 500px;
+	height: 500px;
+    border: 6px solid green;
+    padding: 25px;
+    margin: 25px;
+	color: #000000;
+}
 
+#boxess  h3{
+	font-size:50px;
+	text-align: center
+	
+}
+#boxesss h3 {
+	font-size:50px;
+	text-align: center
+}
+#boxesss {background-color: lightgrey;
+	font-family: Times New Roman;
+    width: 500px;
+	height:500px;
+    border: 6px solid green;
+    padding: 25px;
+    margin: 25px;
+	color: #000000
+	
+}
 
 /*============================
 PRICING SECTION STYLES
