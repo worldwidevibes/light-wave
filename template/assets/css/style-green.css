@@ -180,14 +180,14 @@ padding: 50px 20px 5px 50px;
 }
 
 #carousel-slider h3 {
-line-height: 50px;
+font-size: 40px;
 font-weight: bold;
 font-family: 'Josefin Sans', sans-serif;
 }
 
 #carousel-slider p {
 color: rgb(57, 171, 111);
-font-size: 25px;
+font-size: 30px;
 line-height: 25px;
 margin: 25px 20px;
 }
