@@ -81,7 +81,21 @@ WorldWideVibes
   <span class="w3-opennav" onclick="w3_open()">☰</span>
 </div>
 
+<!-- /#wrapper -->
 
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME -->
 <!-- CORE JQUERY -->
 <script src="assets/js/jquery-1.11.1.js"></script>
