@@ -5,7 +5,7 @@
 .form {
   position: relative;
   z-index: 1;
-  background: ##e91e630a;
+  background: #;
   max-width: 300px;
   margin: 0 auto 100px;
   padding: 30px;
@@ -17,7 +17,7 @@
 }
 .form .thumbnail {
 	
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 1);
   width: 150px;
   height: 150px;
   margin: 0 auto 30px;
@@ -121,7 +121,7 @@
 /* END Form */
 /* Demo Purposes */
 body {
-  background-image: url("http://37.media.tumblr.com/19fca38a669a5f86bab1ef2c1b2606f6/tumblr_n3xvtlVi711sop9rfo1_250.gif");
+  background-image: url("https://66.media.tumblr.com/9348a3347757267167ed4b81dafbf430/tumblr_o7cc2ywtEX1urbgaxo1_500.gif");
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
