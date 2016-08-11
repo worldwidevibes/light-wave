@@ -1,7 +1,11 @@
 /* Form */
+<<<<<<< HEAD
+
+=======
 body{
 	background-image: url("http://www.freelargeimages.com/wp-content/uploads/2016/06/Background-4.jpg");
 }
+>>>>>>> origin/master
 .form {
   position: relative;
   z-index: 1;
