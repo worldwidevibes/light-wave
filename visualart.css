@@ -1,7 +1,27 @@
-headingstyle{
+<style>
+#headingstyle{
 	color: #E8ADAA;
 	text-align: center;
 	}
 body{
 	background-image: url("http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
 	}
+#col-xs-12-col-sm-6-col-md-6-col-lg-6{
+							display: block;
+							margin-left: auto;
+							margin-right: auto;
+							}
+.center{
+					margin: auto;
+					width: 50%;
+					border: 3px #fff;
+					padding: 10px;
+		}
+h1{
+	color: #808080;
+}
+#tophat
+
+
+
+</style>
