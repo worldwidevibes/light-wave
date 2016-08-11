@@ -6,6 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <meta name="description" content="" />
 <meta name="author" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <!--[if IE]>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <![endif]-->
@@ -62,89 +64,51 @@ WorldWideVibes
 
 <!-- Sidebar for photos -->
 
-<style>
-body {
-    font-family: "Lato", sans-serif;
-    transition: background-color .5s;
-}
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s
-}
-
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
-<body>
-
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-</div>
+<nav class="w3-sidenav w3-white w3-card-2" style="display:none" id="mySidenav">
+  <a href="javascript:void(0)"
+  onclick="w3_close()"
+  class="w3-closenav w3-large">Close &times;</a>
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  <a href="#">Link 4</a>
+  <a href="#">Link 5</a>
+</nav>
 
 <div id="main">
-  <h2>Sidenav Push Example</h2>
-  <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p>
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<header class="w3-container w3-teal">
+  <span class="w3-opennav w3-xlarge" onclick="w3_open()" id="openNav">&#9776;</span>
+  <h1>My Header</h1>
+</header>
+
+<img src="img_car.jpg" alt="Car" style="width:100%">
+
+<div class="w3-container">
+  <p>In this example, the sidenav is hidden (style="display:none") and is only shown when you click on the menu icon in the top left corner. When it is opened, it shifts the page content to the right (we use JavaScript to add a 25% left margin to the div element with id="main" when this happens. The value "25%" matches the value used to set the width of the sidenav. Tip: If you change the left margin to 40%, you should change the width of the sidenav to 40% as well.</p>
 </div>
 
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-}
+<footer class="w3-container w3-teal">
+  <h5>Footer</h5>
+  <p>Footer information goes here</p>
+</footer>
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-    document.body.style.backgroundColor = "white";
+</div>
+      
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "25%";
+  document.getElementById("mySidenav").style.width = "25%";
+  document.getElementById("mySidenav").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidenav").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
 }
 </script>
      
-</body>
-
-
 
 <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME -->
 <!-- CORE JQUERY -->
