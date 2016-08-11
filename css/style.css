@@ -44,7 +44,11 @@
 }
 .form button {
   outline: 0;
+<<<<<<< HEAD
   background: #EF3B3A;
+=======
+  background: #7FFFD4;
+>>>>>>> origin/master
   width: 100%;
   border: 0;
   padding: 15px;
@@ -64,7 +68,11 @@
   font-size: 12px;
 }
 .form .message a {
+<<<<<<< HEAD
   color: #EF3B3A;
+=======
+  color: #7FFFD4;
+>>>>>>> origin/master
   text-decoration: none;
 }
 .form .register-form {
