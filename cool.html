@@ -14,14 +14,16 @@
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
 
         <link rel="stylesheet" href="css/style.css">
-
+	<script>
+		
+	</script>
     
     
     
   </head>
 
   <body>
-  
+
 <div class="container">
   <div class="info">
    
@@ -32,16 +34,19 @@
 <div class="form">
   <div class="thumbnail"><img src="http://67.media.tumblr.com/3ac4cdb71b5b782a15f04904ba04e4be/tumblr_mswlj88awM1ssdigko1_400.gif"/></div>
   <form class="register-form">
-    <input type="text" placeholder="name"/>
-    <input type="password" placeholder="password"/>
+    <input type="text" placeholder="name" id="email"/>
+    <input type="password" placeholder="password"id="pw"/>
     <input type="text" placeholder="email address"/>
-    <button>create</button>
+    <button onClick="store()";>create</button>
     <p class="message">Already registered? <a href="#">Sign In</a></p>
   </form>
   <form class="login-form">
     <input type="text" placeholder="username"/>
     <input type="password" placeholder="password"/>
-    <button>login</button>
+    <button onClick="check()";>login</button>
+<!--	
+	<input id="login_btn" type="submit" value="Login" onClick="check()"/>-->
+
     <p class="message">Not registered? <a href="#">Create an account</a></p>
   </form>
 </div>
@@ -55,4 +60,6 @@
     
     
   </body>
+
+
 </html>
