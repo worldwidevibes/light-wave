@@ -1,7 +1,5 @@
 /* Form */
-body{
-	background-image: url("http://www.freelargeimages.com/wp-content/uploads/2016/06/Background-4.jpg");
-}
+
 .form {
   position: relative;
   z-index: 1;
@@ -119,7 +117,7 @@ body{
 /* END Form */
 /* Demo Purposes */
 body {
-  background: #ccc;
+  background-image: url("http://www.freelargeimages.com/wp-content/uploads/2016/06/Background-4.jpg");;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
