@@ -1,4 +1,7 @@
 /* Form */
+body{
+	background-image: url("http://www.freelargeimages.com/wp-content/uploads/2016/06/Background-4.jpg");
+}
 .form {
   position: relative;
   z-index: 1;
@@ -13,7 +16,7 @@
   text-align: center;
 }
 .form .thumbnail {
-  background: #EF3B3A;
+  background: #7FFFD4;
   width: 150px;
   height: 150px;
   margin: 0 auto 30px;
