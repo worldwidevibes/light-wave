@@ -4,19 +4,23 @@ body {
 
 
 logocenter{
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 		}
 h1style{
-	color:#fff;
-	text-align:center;
+	color: #fff;
+	text-align: center;
 }
 h2style{
-	color:#fff;
-	text-align:center;
+	color: #fff;
+	text-align: center;
 }
 p1style{
-	color:#fff;
+	color: #fff;
 	text-align: center;
+}
+img{
+	display: block;
+	margin: auto;
 }
