@@ -1,50 +1,160 @@
+@import url(http://fonts.googleapis.com/css?family=Shanti);
 
-/* The side navigation menu */
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+li {
+  list-style: none;
 }
 
-/* The navigation menu links */
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #888;
+  text-shadow: 0 -1px #505050;
+  text-decoration: underline;
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+#behind {
+  z-index: -1000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 196px;
+  background: -webkit-linear-gradient(top, #707A8A, #8D97A7);
+  box-shadow: inset 0 1px 5px rgb(44, 49, 56);
+  border-top: 1px solid #21252C;
+  border-left: 1px solid 4C515B;
+  border-right: 1px solid 4C515B;
+  border-bottom: 1px solid #676767;
+
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-right: 12px;
+
+  color: white;
+  text-shadow: 0 1px #535353;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+#behind a {
+    color: white;
+    text-shadow: 0 1px #535353;
+    padding-bottom: 1px;
+    padding-top: 2px;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-    transition: margin-left .5s;
-    padding: 20px;
+.lineSplitter {
+  content: '';
+  height 1px;
+  color: #aaa;
+  background: #aaa;
+  width: 100%;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+#over {
+  z-index: 1000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(top, #fefefe, #fafafa);
+  -webkit-box-shadow: -2px 0 20px rgba(0, 0, 0, 0.8), inset 1px 0 #bababa, inset -1px 0 #bababa;
+}
+
+.box {
+  background: #EBEBEB;
+  border: 1px solid #ECECEC;
+  border-radius: 4px;
+}
+
+.openedMenu {
+  -webkit-transition: -webkit-transform .1s;
+  -webkit-transform: translateX(204px);
+}
+
+.closedMenu {
+  -webkit-transition: -webkit-transform .1s;
+  -webkit-transform: translateX(0px);
+}
+
+header {
+  background: -webkit-linear-gradient(top, #e5e5e5, #d4d4d4);
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+  border-top: 1px solid white;
+  border-bottom: 1px solid #999;
+  color: #353535;
+  z-index: 1002;
+}
+
+.button {
+  cursor: pointer;
+  color: #2c2c2c;
+  background: -webkit-linear-gradient(top, #f0f0f0, #b6b6b6);
+  border: 1px solid #b0b0b0;
+  border-top: 1px solid #b8b8b8;
+  border-bottom: #a0a0a0;
+  border-radius: 4px;
+  box-shadow: 0 1px #e8e8e8;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: -2px;
+  float: left;
+  text-shadow: 0 1px #333;
+}
+.button:before {
+    border-bottom: 9px double #2c2c2c;
+    border-top: 3px solid #2c2c2c;    
+    border-radius: 1px;
+    content:"";
+    height: 3px; 
+    position: absolute; 
+    right: 4px;  
+    top: 4px;
+    width:16px;
+}
+.button:hover {
+  background: -webkit-linear-gradient(top, #f2f2f2, #b8b8b8);
+}
+.button:active {
+  background: -webkit-linear-gradient(top, #cdcdcd, #e1e1e1);
+  border: 1px solid #a9a9a9;
+  border-top: 1px solid #898989;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 1px white, inset 0 1px 3px #acacac;
+  border-radius: 3px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Shanti';
+}
+
+hr {
+  color: #444;
+  background-color: #444;
+}
+
+section {
+  background: #f0f0f0;
+  border-top: 1px solid white;
+  height: 100%;
+  z-index: 1001;
+}
+
+section p {
+  padding: 16px;
+  padding-left: 32px;
 }
