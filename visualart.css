@@ -9,22 +9,20 @@
 							margin-left: auto;
 							margin-right: auto;
 							}
-#rulelink{
+.rulelink{
 	font-size: 10px;
 	font-family: Times New Roman;
 	color:#fff;
 }
-#caramel{
+.caramel{
 	display: block;
 	margin: auto;
 }
-.center{
-					margin: auto;
-					width: 50%;
-					border: 3px #fff;
-					padding: 10px;
-		}
-h1{
+.imgCenter{
+	display: block;
+	margin: auto;
+}
+#h1{
 	color: #808080;
 }
 #tophat
@@ -32,7 +30,7 @@ h1{
 	color: #808080;
 	margin: auto;
 }
-<style>
+/*<style>
 div.img {
     margin: 5px;
     border: 1px solid #ccc;
@@ -52,5 +50,5 @@ div.img img {
 div.desc {
     padding: 15px;
     text-align: center;
-}
+}*/
 </style>
