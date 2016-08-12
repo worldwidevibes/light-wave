@@ -10,9 +10,13 @@
 							margin-right: auto;
 							}
 #rulelink{
-	font-size: 15px;
+	font-size: 10px;
 	font-family: Times New Roman;
 	color:#fff;
+}
+#caramel{
+	display: block;
+	margin: auto;
 }
 .center{
 					margin: auto;
