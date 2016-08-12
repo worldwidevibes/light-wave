@@ -1108,7 +1108,14 @@ a:focus {
 figure {
   margin: 0;
 }
+
 img {
+  white-space: nowrap;
+
+ul, li {
+  list-style: none;
+  display: inline;
+}
   vertical-align: middle;
 }
 .img-responsive,
