@@ -225,15 +225,17 @@ margin: 5px;
 color: rgb(57, 171, 111);
 font-size: 60px;
 }
-#boxess {
+#boxess  {background-color: 	#2171844a;
 	font-family: Times New Roman;
-    background-color: #217184;
     width: 500px;
-	height: 500px;
-    border: 6px solid green;
+	height:500px;
+    border: 6px solid #0080004a;
+	box-shadow: 0 0 50px
+	       rgba(27, 25, 26,0.59);
     padding: 25px;
     margin: 25px;
-	color: #000000;
+	color:#ffffff
+	
 }
 
 #boxess  h3{
@@ -245,14 +247,16 @@ font-size: 60px;
 	font-size:50px;
 	text-align: center
 }
-#boxesss {background-color: 	#217184;
+#boxesss {background-color: 	#2171844a;
 	font-family: Times New Roman;
     width: 500px;
 	height:500px;
-    border: 6px solid green;
+    border: 6px solid #0080004a;
+	box-shadow: 0 0 5px
+	       rgba(27, 25, 26,0.59);
     padding: 25px;
     margin: 25px;
-	color: #000000
+	color: #ffffff
 	
 }
 
