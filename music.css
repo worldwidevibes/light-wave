@@ -1,4 +1,4 @@
-﻿/*=============================================================
+/*=============================================================
     Authour URL: www.designbootstrap.com
     
     http://www.designbootstrap.com/
@@ -225,17 +225,15 @@ margin: 5px;
 color: rgb(57, 171, 111);
 font-size: 60px;
 }
-#boxess  {background-color: 	#2171844a;
+#boxess {
 	font-family: Times New Roman;
+    background-color: #217184;
     width: 500px;
-	height:500px;
-    border: 6px solid #0080004a;
-	box-shadow: 0 0 5px
-	       rgba(27, 25, 26,0.59);
+	height: 500px;
+    border: 6px solid green;
     padding: 25px;
     margin: 25px;
-	color: #000000
-	
+	color: #000000;
 }
 
 #boxess  h3{
@@ -247,13 +245,11 @@ font-size: 60px;
 	font-size:50px;
 	text-align: center
 }
-#boxesss {background-color: 	#2171844a;
+#boxesss {background-color: 	#217184;
 	font-family: Times New Roman;
     width: 500px;
 	height:500px;
-    border: 6px solid #0080004a;
-	box-shadow: 0 0 5px
-	       rgba(27, 25, 26,0.59);
+    border: 6px solid green;
     padding: 25px;
     margin: 25px;
 	color: #000000
