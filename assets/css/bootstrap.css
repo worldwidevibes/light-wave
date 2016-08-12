@@ -1090,9 +1090,10 @@ textarea {
 }
 a {
   color: #fff0f3;
-  font-size:40px;
+  font-size:30px;
   text-decoration: none;
   font-weight:bold;
+  font-family: Josefin Slab;
 }
 a:hover,
 a:focus {

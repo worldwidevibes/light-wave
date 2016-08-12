@@ -324,7 +324,7 @@ font-size: 18px;
 font-weight: 900;
 text-transform: uppercase;
 font-size: 18px;
-color: rgb(57, 171, 111);
+color: rgb(33, 113, 132);
 padding: 7px 0;
 text-align: center;
 }
@@ -440,7 +440,7 @@ border-radius: 10px 10px 0px 0px;
 }
 
 .team-wrapper > .team-inner > a {
-color: rgb(57, 171, 111);
+color: rgb(33, 113, 132);
 width: 80px;
 height: 80px;
 border-radius: 50%;
@@ -448,7 +448,7 @@ border-radius: 50%;
 -webkit-border-radius: 50%;
 margin: 0 auto -50px;
 display: block;
-color: rgb(57, 171, 111);
+color: rgb(33, 113, 132);
 z-index: 999;
 font-size: 40px;
 padding: 15px 22px;
