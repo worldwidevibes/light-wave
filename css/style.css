@@ -17,7 +17,7 @@
 }
 .form .thumbnail {
 	
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 0);
   width: 150px;
   height: 150px;
   margin: 0 auto 30px;
@@ -121,7 +121,7 @@
 /* END Form */
 /* Demo Purposes */
 body {
-  background-image: url("https://66.media.tumblr.com/9348a3347757267167ed4b81dafbf430/tumblr_o7cc2ywtEX1urbgaxo1_500.gif");
+  background-image: url("http://www.lovethisgif.com/uploaded_images/62700-Gif-Stars-Purple-Sparkles-Yes-Sparkle-Png-Transparent-Transparency-....gif");
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
