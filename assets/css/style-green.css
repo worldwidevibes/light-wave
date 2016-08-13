@@ -475,7 +475,7 @@ border-left: 1px solid #fff;
 }
 
 .team-wrapper .description h5 {
-color: rgb(57, 171, 111);
+color: rgb(33, 113, 132);
 }
 
 
@@ -494,7 +494,7 @@ margin-bottom: 40px;
 min-height:200px;
 }
 #contact .contact-wrapper h3 {
-color:rgb(57, 171, 111);
+color:rgb(33, 113, 132);
 }
 #contact .social-below {
 display: block;
@@ -509,3 +509,35 @@ font-size:10px;
 color:#fff;
 text-decoration:none;
 }
+
+/*GROW*/
+.grow img {
+  height: 300px;
+  width: 300px;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow img:hover {
+  width: 400px;
+  height: 400px;
+}
+
+.preview {
+    display: inline-block;
+    margin: 0 40px 0 0;
+}
+
+#container {
+width: 500px;
+height: 300px;
+overflow: hidden;
+border: 3px double #000;
+white-space: nowrap;
+}
+
+#container img {display: inline-block; margin: 0 100px;}
