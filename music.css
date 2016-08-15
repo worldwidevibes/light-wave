@@ -225,10 +225,10 @@ margin: 5px;
 color: rgb(57, 171, 111);
 font-size: 60px;
 }
-#boxes1  {background-color: 	#2171844a;
+#boxes1  {background: rgba(0, 0, 255, 0.3);
 	font-family: Times New Roman;
     width: 500px;
-	height:400px;
+	height:500px;
     border: 6px solid #0080004a;
 	box-shadow: 0 0 50px
 	       rgba(27, 25, 26,0.59);
@@ -263,7 +263,7 @@ font-size: 60px;
 	font-size:50px;
 	text-align: center
 }
-#boxes3 {background-color: 	#2171844a;
+#boxes3 {background-color: rgba(191,62,255, 0.3);
 	font-family: Times New Roman;
     width: 500px;
 	height:500px;
@@ -295,7 +295,7 @@ font-size: 60px;
 	font-size:50px;
 	text-align: center
 }
-#boxes5 {background-color: 	#2171844a;
+#boxes5 {background-color: rgba(220,20,60, 0.3);
 	font-family: Times New Roman;
     width: 500px;
 	height:500px;
@@ -327,7 +327,7 @@ font-size: 60px;
 	font-size:50px;
 	text-align: center
 }
-#boxes7 {background-color: 	#2171844a;
+#boxes7 {background-color:rgba(0,139,139, 0.3);
 	font-family: Times New Roman;
     width: 500px;
 	height:500px;
