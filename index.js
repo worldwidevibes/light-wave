@@ -25,3 +25,37 @@ function check() {
         alert('ERROR.');
     }
 }
+var accounts = [];
+var profile = [];
+function finding(){
+	indexof(0) = username;
+}
+function login(){
+	var username = document.getElementById("usern").value;
+	var passwo = document.getElementById("passw").value;
+	while (username != accounts(profile[0])){
+		accounts.forEach(finding);
+		var found = username;
+	}
+	if (password != (profile[username,1])){
+		alert("YES");
+	}else{
+		alert("NO");
+	}
+}
+
+function create(){
+	profile["UserName"] = "username";
+	profile["PassWord"] = "passwo";
+	profile["email"] = "email";
+	document.getElementById("username").value;
+	document.getElementById("passwo").value;
+	document.getElementById("email").value;
+	
+	profile.push("username");
+	profile.push("passwo");
+	profile.push("email");
+	
+	accounts.push('profile')
+	window.location.href = "index.html";
+}
